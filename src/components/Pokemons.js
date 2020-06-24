@@ -187,7 +187,7 @@ class Pokemons extends React.Component {
           {
             filteredPokemons.map(pokemon =>(
                     <Grid items xs={3} key={pokemon.id} style={{marginTop:'2%'}}>
-                      <Card style={{width: '250px',height:'550px'}}>
+                      <Card style={{width: '250px',height:'600px'}}>
                             <CardHeader style={{color: 'blue'}}
                               title={pokemon.name}
                             />
@@ -195,7 +195,7 @@ class Pokemons extends React.Component {
                               image={pokemon.img}
                               title={pokemon.name}
                             />
-                            <CardContent>
+                            <CardContent style={{height:'250px'}}>
                                 <Grid container style={{marginLeft:'30px'}}>
                                     <Grid>
                                       <h5>Type</h5>
