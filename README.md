@@ -11,3 +11,8 @@ npm install
 npm start
 
 run app on chrome http://localhost:8000/
+
+
+Or
+
+Access website directly on https://unruffled-kilby-c6d439.netlify.app/
